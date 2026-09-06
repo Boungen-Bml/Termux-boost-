@@ -8,7 +8,8 @@
 
 ```nano optimize.sh```
 
-```#!/system/bin/sh
+```
+#!/system/bin/sh
 
 # Define Color Codes
 G='\033[1;32m'
