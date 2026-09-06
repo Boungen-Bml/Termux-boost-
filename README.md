@@ -1,17 +1,9 @@
 
-```com.Termux```
+```sh rish```
 
 ```termux-setup-storage```
 
-```
-find /sdcard/ -name "rish_shizuku.dex" -exec cp {} ~ \; 2>/dev/null
-find /sdcard/ -name "rish" -type f -exec cp {} ~ \; 2>/dev/null
-cd ~
-```
-```chmod +x rish```
-```./rish```
-
-```nano optimize.sh```
+```optimize.sh```
 
 ```
 #!/system/bin/sh
@@ -197,11 +189,6 @@ printf "\n${G}==========================================${N}\n"
 printf "${G}   System Optimization Completed!         ${N}\n"
 printf "${G}==========================================${N}\n"
 ```
-
-```chmod +x optimize.sh```
-```optimize.sh /sdcard/Download/```
-
-```chmod +x ~/rish && ./rish```
 
 ```sh /sdcard/Download/optimize.sh```
 
