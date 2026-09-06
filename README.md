@@ -1,11 +1,5 @@
 ```termux-setup-storage```
 
-```cp /sdcard/Download/rish* ~```
-
-```nano rish```
-
-```sed -i '2i export RISH_APPLICATION_ID="com.termux"' ~/rish```
-
 ```nano optimize.sh```
 
 ```
@@ -196,7 +190,7 @@ printf "${G}==========================================${N}\n"
 ```chmod +x optimize.sh```
 ```optimize.sh /sdcard/Download/```
 
-```chmod +x ~/rish && ./rrish```
+```chmod +x ~/rish && ./rish```
 
 ```sh /sdcard/Download/optimize.sh```
 
