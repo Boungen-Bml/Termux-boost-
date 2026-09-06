@@ -12,7 +12,7 @@ chmod +x rish
 
 ```nano optimize.sh```
 
-```
+`
 #!/system/bin/sh
 
 # Define Color Codes
@@ -194,8 +194,7 @@ esac
 
 printf "\n${G}==========================================${N}\n"
 printf "${G}   System Optimization Completed!         ${N}\n"
-printf "${G}==========================================${N}\n"
-```
+printf "${G}==========================================${N}\n"```
 
 ```chmod +x optimize.sh```
 ```optimize.sh /sdcard/Download/```
