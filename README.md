@@ -1,5 +1,7 @@
 ```termux-setup-storage```
 
+```cp /sdcard/Documents/rish* ~```
+
 ```nano optimize.sh```
 
 ```
