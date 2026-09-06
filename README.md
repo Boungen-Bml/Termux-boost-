@@ -1,3 +1,5 @@
+```com.Termux```
+
 ```termux-setup-storage```
 
 ```cp /sdcard/Documents/rish* ~```
