@@ -7,12 +7,13 @@
 find /sdcard/ -name "rish_shizuku.dex" -exec cp {} ~ \; 2>/dev/null
 find /sdcard/ -name "rish" -type f -exec cp {} ~ \; 2>/dev/null
 cd ~
-chmod +x rish
-./rish``
+```
+```chmod +x rish```
+```./rish```
 
-```nano optimize.sh``
+```nano optimize.sh```
 
-``
+```
 #!/system/bin/sh
 
 # Define Color Codes
